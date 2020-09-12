@@ -1,0 +1,12 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyAAP1P7quslR-av8bpwLlnsfhHrPzxlAIw",
+    "authDomain": "revelation-8fc0e.firebaseapp.com",
+    "databaseURL": "https://revelation-8fc0e.firebaseio.com",
+    "projectId": "revelation-8fc0e",
+    "storageBucket": "revelation-8fc0e.appspot.com",
+    "messagingSenderId": "787352789302",
+    "appId": "1:787352789302:web:4585859a807c1a6c0f1397",
+    "measurementId": "G-JMJMFYLVQF"
+  }
+}
