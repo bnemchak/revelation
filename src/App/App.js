@@ -5,6 +5,7 @@ import 'firebase/auth';
 import fbConnection from '../helpers/data/connection';
 
 import MyNavbar from '../components/MyNavbar/MyNavbar';
+import ColorContainer from '../components/ColorContainer/ColorContainer';
 
 import './App.scss';
 
@@ -32,9 +33,17 @@ class App extends React.Component {
   render() {
     const { authed } = this.state;
 
+    // eslint-disable-next-line consistent-return
+    const loadComponent = () => {
+      if (authed) {
+        return <ColorContainer authed={ authed } />;
+      }
+    };
+
     return (
       <div className="App">
         <MyNavbar authed={authed} />
+        {loadComponent()}
       </div>
     );
   }
