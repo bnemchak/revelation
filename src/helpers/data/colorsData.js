@@ -11,4 +11,6 @@ const getColors = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getColors };
+const deleteColor = (colorId) => axios.delete(`${baseURl}/colors/${colorId}.json`);
+
+export default { getColors, deleteColor };

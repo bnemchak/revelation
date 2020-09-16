@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import ColorInfo from '../ColorInfo/ColorInfo';
 import colorShape from '../../helpers/propz/colorShape';
 
@@ -8,7 +8,15 @@ import './color.scss';
 class Color extends React.Component {
   static propTypes = {
     color: colorShape.colorShape,
+    deleteColor: PropTypes.func.isRequired,
   }
+
+  deleteColorEvent = (e) => {
+    e.preventDefault();
+    const { color, deleteColor } = this.props;
+
+    deleteColor(color.id);
+  };
 
   render() {
     const { color } = this.props;
@@ -20,6 +28,9 @@ class Color extends React.Component {
           </div>
           <div className="flip-card-back">
             <ColorInfo color={color} key={color.id} />
+            <button type="button" className="btn btn-dark" onClick={this.deleteColorEvent}><i className="fas fa-trash-alt"></i></button>
+            <button type="button" className="btn btn-dark"><i className="fas fa-pencil-alt"></i></button>
+            <button type="button" className="btn btn-dark"><i className="fas fa-hand-sparkles"></i></button>
           </div>
         </div>
       </div>
