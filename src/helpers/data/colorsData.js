@@ -5,10 +5,21 @@ import utils from '../utils';
 
 const baseURl = apiKeys.firebaseConfig.databaseURL;
 
-const getColors = () => new Promise((resolve, reject) => {
-  axios.get(`${baseURl}/colors.json`)
+const getColorsByUid = (uid) => new Promise((resolve, reject) => {
+  axios.get(`${baseURl}/colors.json?orderBy="uid"&equalTo="${uid}"`)
     .then(({ data }) => resolve(utils.convertFirebaseCollection(data)))
     .catch((err) => reject(err));
 });
 
-export default { getColors };
+const deleteColor = (colorId) => axios.delete(`${baseURl}/colors/${colorId}.json`);
+
+const createColor = (newColor) => axios.post(`${baseURl}/colors.json`, newColor);
+
+const updateColor = (colorId, editedColor) => axios.put(`${baseURl}/colors/${colorId}.json`, editedColor);
+
+export default {
+  getColorsByUid,
+  deleteColor,
+  createColor,
+  updateColor,
+};

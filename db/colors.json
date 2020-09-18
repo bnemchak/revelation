@@ -134,5 +134,29 @@
     "glitter": true,
     "haveUsed": true,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "D560": {
+    "colorName": "Elysian",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0261/5354/9929/products/d560-elysian-15584960807017_400x.jpg?v=1596826752",
+    "colorFamily": "Green",
+    "glitter": true,
+    "haveUsed": false,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "D562": {
+    "colorName": "Embrace",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0261/5354/9929/products/revel-nail-dip-powder-d562-embrace-15585078739049_400x.jpg?v=1596829750",
+    "colorFamily": "Red",
+    "glitter": false,
+    "haveUsed": false,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "D563": {
+    "colorName": "Reflect",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0261/5354/9929/products/revel-nail-dip-powder-d563-reflect-15584975290473_400x.jpg?v=1596827111",
+    "colorFamily": "Blue",
+    "glitter": true,
+    "haveUsed": false,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   }
 }
