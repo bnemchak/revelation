@@ -12,7 +12,6 @@ class ColorForm extends React.Component {
   }
 
   state = {
-    id: '',
     colorName: '',
     imageUrl: '',
     colorFamily: '',
@@ -25,7 +24,6 @@ class ColorForm extends React.Component {
     const { colorThatIAmEditing } = this.props;
     if (colorThatIAmEditing.colorName) {
       this.setState({
-        id: colorThatIAmEditing.id,
         colorName: colorThatIAmEditing.colorName,
         imageUrl: colorThatIAmEditing.imageUrl,
         colorFamily: colorThatIAmEditing.colorFamily,
@@ -41,7 +39,6 @@ class ColorForm extends React.Component {
     const incomingColor = this.props.colorThatIAmEditing;
     if (prevColor.colorName !== incomingColor.colorName) {
       this.setState({
-        id: incomingColor.id || '',
         colorName: incomingColor.colorName || '',
         imageUrl: incomingColor.imageUrl || '',
         colorFamily: incomingColor.colorFamily || '',
@@ -51,11 +48,6 @@ class ColorForm extends React.Component {
         isEditing: incomingColor.colorName ? true : false,
       });
     }
-  }
-
-  changeIdEvent = (e) => {
-    e.preventDefault();
-    this.setState({ id: e.target.value });
   }
 
   changeColorNameEvent = (e) => {
@@ -86,7 +78,6 @@ class ColorForm extends React.Component {
   saveColorEvent = (e) => {
     e.preventDefault();
     const {
-      id,
       colorName,
       imageUrl,
       colorFamily,
@@ -96,7 +87,6 @@ class ColorForm extends React.Component {
     const { createColor } = this.props;
 
     const newColor = {
-      id,
       colorName,
       imageUrl,
       colorFamily,
@@ -111,7 +101,6 @@ class ColorForm extends React.Component {
   editColorEvent = (e) => {
     e.preventDefault();
     const {
-      id,
       colorName,
       imageUrl,
       colorFamily,
@@ -121,7 +110,6 @@ class ColorForm extends React.Component {
     const { updateColor, colorThatIAmEditing } = this.props;
 
     const myColorWithChanges = {
-      id,
       colorName,
       imageUrl,
       colorFamily,
@@ -142,16 +130,6 @@ class ColorForm extends React.Component {
     return (
       <form className="col-6 offset-3">
         <button className="btn btn-dark" onClick={this.closeFormEvent}><i className="fas fa-window-close"></i></button>
-         <div className="form-group">
-        <label htmlFor="colorId">Color Id</label>
-        <input
-          type="text"
-          className="form-control"
-          id="colorId"
-          placeholder="Add Color Id"
-          onChange={this.changeIdEvent}
-        />
-      </div>
       <div className="form-group">
         <label htmlFor="colorName">Color Name</label>
         <input

@@ -22,7 +22,6 @@ class MyNavbar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">Revelation</a>
-        <a className="nav-item nav-link" href="/">Collection</a>
         <a className="nav-item nav-link" href="/">Manicures</a>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">

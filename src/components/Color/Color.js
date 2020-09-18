@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import ColorInfo from '../ColorInfo/ColorInfo';
 import colorShape from '../../helpers/propz/colorShape';
 

@@ -43,7 +43,7 @@ class ColorContainer extends React.Component {
   }
 
   editAColor = (colorToEdit) => {
-    this.setState({ formOpen: false, editColor: colorToEdit });
+    this.setState({ formOpen: true, editColor: colorToEdit });
   }
 
   updateColor = (colorId, editedColor) => {
