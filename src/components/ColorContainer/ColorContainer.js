@@ -9,6 +9,7 @@ import ColorForm from '../ColorForm/ColorForm';
 class ColorContainer extends React.Component {
   static propTypes = {
     authed: PropTypes.bool,
+    setManiContainer: PropTypes.func.isRequired,
   }
 
   state = {
@@ -61,7 +62,9 @@ class ColorContainer extends React.Component {
 
   render() {
     const { colors, formOpen, editColor } = this.state;
-    const colorCards = colors.map((color) => <Colors key={color.id} color={color} deleteColor={this.deleteColor} editAColor={this.editAColor} />);
+    const { setManiContainer } = this.props;
+
+    const colorCards = colors.map((color) => <Colors key={color.id} color={color} setManiContainer={setManiContainer} deleteColor={this.deleteColor} editAColor={this.editAColor} />);
 
     return (
       <div className="ColorContainer">

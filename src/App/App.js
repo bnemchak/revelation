@@ -6,6 +6,7 @@ import fbConnection from '../helpers/data/connection';
 
 import MyNavbar from '../components/MyNavbar/MyNavbar';
 import ColorContainer from '../components/ColorContainer/ColorContainer';
+import ManiContainer from '../components/ManiContainer/ManiContainer';
 
 import './App.scss';
 
@@ -14,6 +15,7 @@ fbConnection();
 class App extends React.Component {
   state ={
     authed: false,
+    maniId: '',
   }
 
   componentDidMount() {
@@ -30,13 +32,21 @@ class App extends React.Component {
     this.removeListener();
   }
 
+  setManiContainer = (maniId) => {
+    this.setState({ maniId });
+  }
+
   render() {
-    const { authed } = this.state;
+    const { authed, maniId } = this.state;
 
     // eslint-disable-next-line consistent-return
     const loadComponent = () => {
-      if (authed) {
-        return <ColorContainer authed={ authed } />;
+      if (authed && maniId === 0) {
+        return <ColorContainer setManiContainer={this.setManiContainer} />;
+      }
+
+      if (authed && maniId > 0) {
+        return <ManiContainer colorId={maniId} setManiContainer={this.setManiContainer} />;
       }
     };
 
