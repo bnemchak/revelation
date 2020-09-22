@@ -9,8 +9,15 @@ import './color.scss';
 class Color extends React.Component {
   static propTypes = {
     color: colorShape.colorShape,
+    setManiContainer: PropTypes.func.isRequired,
     deleteColor: PropTypes.func.isRequired,
     editAColor: PropTypes.func.isRequired,
+  }
+
+  maniContainerEvent = (e) => {
+    e.preventDefault();
+    const { color, setManiContainer } = this.props;
+    setManiContainer(color.id);
   }
 
   deleteColorEvent = (e) => {
@@ -38,7 +45,7 @@ class Color extends React.Component {
             <ColorInfo color={color} key={color.id} />
             <button type="button" className="btn btn-dark" onClick={this.deleteColorEvent}><i className="fas fa-trash-alt"></i></button>
             <button type="button" className="btn btn-dark" onClick={this.editColorEvent}><i className="fas fa-pencil-alt"></i></button>
-            <button type="button" className="btn btn-dark"><i className="fas fa-hand-sparkles"></i></button>
+            <button type="button" className="btn btn-dark" onClick={this.maniContainerEvent}><i className="fas fa-hand-sparkles"></i></button>
           </div>
         </div>
       </div>

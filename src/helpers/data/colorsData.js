@@ -11,6 +11,8 @@ const getColorsByUid = (uid) => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
+const getManiContainer = (colorId) => axios.get(`${baseURl}/colors/${colorId}.json`);
+
 const deleteColor = (colorId) => axios.delete(`${baseURl}/colors/${colorId}.json`);
 
 const createColor = (newColor) => axios.post(`${baseURl}/colors.json`, newColor);
@@ -22,4 +24,5 @@ export default {
   deleteColor,
   createColor,
   updateColor,
+  getManiContainer,
 };

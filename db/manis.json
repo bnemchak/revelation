@@ -1,0 +1,137 @@
+{
+  "mani1": {
+    "colorName": "Acorn",
+    "colorId": "D527",
+    "maniImg": "https://i.imgur.com/v4zQmFO.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani2": {
+    "colorName": "Madam",
+    "colorId": "D495",
+    "maniImg": "https://i.imgur.com/orDMwn6.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 3,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani3": {
+    "colorName": "Cornstalk",
+    "colorId": "D528",
+	  "maniImg": "https://i.imgur.com/fqq3O6P.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani4": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/QtPBfUQ.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani5": {
+    "colorName": "Rhea",
+    "colorId": "D168",
+	  "maniImg": "https://i.imgur.com/51qCUi3.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani6": {
+    "colorName": "Reef",
+    "colorId": "D543",
+	  "maniImg": "https://i.imgur.com/R1d2L3o.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani7": {
+    "colorName": "Torch",
+    "colorId": "GC5",
+	  "maniImg": "https://i.imgur.com/TWG8R5F.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani8": {
+    "colorName": "Aurora",
+    "colorId": "D171",
+	  "maniImg": "https://i.imgur.com/TagNbVb.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 2,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani9": {
+    "colorName": "Lola",
+    "colorId": "D363",
+	  "maniImg": "https://i.imgur.com/EFOcHDH.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 2,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani10": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/92lkVle.jpg",
+    "inspiration": true,
+    "myMani": false,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani11": {
+    "colorName": "Pomegranate",
+    "colorId": "D529",
+	  "maniImg": "https://i.imgur.com/KYyklJE.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 3,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani12": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/ybOlbT8.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani13": {
+    "colorName": "Spiced",
+    "colorId": "D532",
+	  "maniImg": "https://i.imgur.com/opQ7NaM.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 2,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani14": {
+    "colorName": "Amber",
+    "colorId": "D530",
+	  "maniImg": "https://i.imgur.com/opQ7NaM.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 2,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani15": {
+    "colorName": "Tender",
+    "colorId": "D131",
+	  "maniImg": "https://i.imgur.com/15svaAz.jpg",
+    "inspiration": false,
+    "myMani": true,
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  }
+}
