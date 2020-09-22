@@ -4,6 +4,7 @@ const maniShape = PropTypes.shape({
   colorName: PropTypes.string.isRequired,
   colorId: PropTypes.string.isRequired,
   maniImg: PropTypes.string.isRequired,
+  maniInspo: PropTypes.string.isRequired,
   uid: PropTypes.string.isRequired,
 });
 

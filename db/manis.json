@@ -3,8 +3,7 @@
     "colorName": "Acorn",
     "colorId": "D527",
     "maniImg": "https://i.imgur.com/v4zQmFO.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -12,8 +11,7 @@
     "colorName": "Madam",
     "colorId": "D495",
     "maniImg": "https://i.imgur.com/orDMwn6.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 3,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -21,8 +19,7 @@
     "colorName": "Cornstalk",
     "colorId": "D528",
 	  "maniImg": "https://i.imgur.com/fqq3O6P.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -30,8 +27,7 @@
     "colorName": "Agave",
     "colorId": "D320",
 	  "maniImg": "https://i.imgur.com/QtPBfUQ.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -39,8 +35,7 @@
     "colorName": "Rhea",
     "colorId": "D168",
 	  "maniImg": "https://i.imgur.com/51qCUi3.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -48,8 +43,7 @@
     "colorName": "Reef",
     "colorId": "D543",
 	  "maniImg": "https://i.imgur.com/R1d2L3o.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -57,8 +51,7 @@
     "colorName": "Torch",
     "colorId": "GC5",
 	  "maniImg": "https://i.imgur.com/TWG8R5F.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -66,8 +59,7 @@
     "colorName": "Aurora",
     "colorId": "D171",
 	  "maniImg": "https://i.imgur.com/TagNbVb.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 2,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -75,8 +67,7 @@
     "colorName": "Lola",
     "colorId": "D363",
 	  "maniImg": "https://i.imgur.com/EFOcHDH.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 2,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -84,8 +75,7 @@
     "colorName": "Agave",
     "colorId": "D320",
 	  "maniImg": "https://i.imgur.com/92lkVle.jpg",
-    "inspiration": true,
-    "myMani": false,
+    "maniInspo": "Inspiration",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -93,17 +83,15 @@
     "colorName": "Pomegranate",
     "colorId": "D529",
 	  "maniImg": "https://i.imgur.com/KYyklJE.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 3,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
   "mani12": {
     "colorName": "Agave",
     "colorId": "D320",
-	  "maniImg": "https://i.imgur.com/ybOlbT8.jpg",
-    "inspiration": false,
-    "myMani": true,
+	  "maniImg": "https://i.imgur.com/HZyhRib.jpg",
+    "maniInspo": "My Work",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -111,8 +99,7 @@
     "colorName": "Spiced",
     "colorId": "D532",
 	  "maniImg": "https://i.imgur.com/opQ7NaM.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 2,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -120,8 +107,7 @@
     "colorName": "Amber",
     "colorId": "D530",
 	  "maniImg": "https://i.imgur.com/opQ7NaM.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
     "difficultyLevel": 2,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   },
@@ -129,8 +115,79 @@
     "colorName": "Tender",
     "colorId": "D131",
 	  "maniImg": "https://i.imgur.com/15svaAz.jpg",
-    "inspiration": false,
-    "myMani": true,
+    "maniInspo": "My Work",
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani16": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/RZOL1O3.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani17": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/wVDn3aa.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 3,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani18": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/nlBYkKt.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani19": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/MsuUgkP.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 3,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani20": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/AH0QrxR.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani21": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/7TLiRGf.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani22": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/5sxjgxF.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 3,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani23": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/X44396X.jpg",
+    "maniInspo": "Inspiration",
+    "difficultyLevel": 1,
+    "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
+  },
+  "mani24": {
+    "colorName": "Agave",
+    "colorId": "D320",
+	  "maniImg": "https://i.imgur.com/G7LFTjG.jpg",
+    "maniInspo": "Inspiration",
     "difficultyLevel": 1,
     "uid": "B8nJMa97wCcVm5QJbiYDwsJ4lH23"
   }
