@@ -31,14 +31,13 @@ class ManiContainer extends React.Component {
 
   render() {
     const { color, manis } = this.state;
-    const { setManiContainer } = this.props;
+    // const { setManiContainer } = this.props;
 
     const maniCards = manis.map((mani) => <Mani key={mani.id} mani={mani}/>);
 
     return (
       <div>
         <h3> {color.name}</h3>
-        <button className="btn btn-danger" onClick={() => { setManiContainer(''); }}>XXX</button>
         <div className="card-columns">
           {maniCards}
         </div>

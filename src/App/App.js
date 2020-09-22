@@ -15,7 +15,7 @@ fbConnection();
 class App extends React.Component {
   state ={
     authed: false,
-    maniId: '',
+    maniId: '0',
   }
 
   componentDidMount() {
@@ -33,6 +33,7 @@ class App extends React.Component {
   }
 
   setManiContainer = (maniId) => {
+    // const value = parseInt(maniId, 10);
     this.setState({ maniId });
   }
 
@@ -41,11 +42,11 @@ class App extends React.Component {
 
     // eslint-disable-next-line consistent-return
     const loadComponent = () => {
-      if (authed && maniId === 0) {
+      if (authed && (maniId === '0')) {
         return <ColorContainer setManiContainer={this.setManiContainer} />;
       }
 
-      if (authed && maniId > 0) {
+      if (authed && (maniId > '0')) {
         return <ManiContainer colorId={maniId} setManiContainer={this.setManiContainer} />;
       }
     };

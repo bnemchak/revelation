@@ -16,7 +16,7 @@ class Mani extends React.Component {
       <div className="card flip-card colorCard">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <img className="card-img-top" src={mani.imageUrl} alt="mani img"/>
+          <img className="card-img-top" src={mani.maniImg} alt="mani img"/>
         </div>
         <div className="flip-card-back">
           <ManiInfo mani={mani} key={mani.id} />
