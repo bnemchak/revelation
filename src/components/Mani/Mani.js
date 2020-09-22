@@ -20,9 +20,8 @@ class Mani extends React.Component {
         </div>
         <div className="flip-card-back">
           <ManiInfo mani={mani} key={mani.id} />
-          <button type="button" className="btn btn-dark" ><i className="fas fa-trash-alt"></i></button>
-          <button type="button" className="btn btn-dark" ><i className="fas fa-pencil-alt"></i></button>
-          <button type="button" className="btn btn-dark"><i className="fas fa-hand-sparkles"></i></button>
+          {/* <button type="button" className="btn btn-dark" ><i className="fas fa-trash-alt"></i></button> */}
+          {/* <button type="button" className="btn btn-dark" ><i className="fas fa-pencil-alt"></i></button> */}
         </div>
       </div>
     </div>
