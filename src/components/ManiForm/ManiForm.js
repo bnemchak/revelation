@@ -6,11 +6,13 @@
 // class ManiForm extends React.Component {
 //   static propTypes = {
 //     colorId: PropTypes.string.isRequired,
+//     createMani: PropTypes.func.isRequired,
 //   }
 
 //   state = {
 //     colorName: '',
 //     maniImg: '',
+//     maniInspo: '',
 //   }
 
 //   changeColorNameEvent = (e) => {
@@ -22,9 +24,14 @@
 //     this.setState({ maniImg: e.target.value});
 //   }
 
+//   changeManiInspoEvent = (e) => {
+//     e.preventDefault();
+//     this.setState({ maniInspo: e.target.value });
+//   }
+
 //   saveManiEvent = (e) => {
 //     e.preventDefault();
-//     const {colorName, maniImg } = this.state;
+//     const {colorName, maniImg, maniInspo } = this.state;
 //   };
 
 //   render() {

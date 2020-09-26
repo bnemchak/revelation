@@ -160,28 +160,36 @@ class ColorForm extends React.Component {
           onChange={this.changeColorFamilyEvent}
         />
       </div>
-      <div className="form-group">
-        <label htmlFor="colorGlitter">Glitter</label>
-        <input
-          type="text"
-          className="form-control"
-          id="colorGlitter"
-          placeholder="true or false"
-          onChange={this.changeGlitterEvent}
-        />
+      <div className="form-group row-center">
+      <div className="form-check col-center">
+        <input className="form-check-inline" type="checkbox" value="false" id="defaultCheck1" onChange={this.changeGlitterEvent}/>
+        <label className="form-check-label" for="defaultCheck1">
+        No Glitter
+      </label>
       </div>
-      <div className="form-group">
-        <label htmlFor="colorHaveUsed">haveUsed</label>
-        <input
-          type="text"
-          className="form-control"
-          id="colorHaveUsed"
-          placeholder="true or false"
-          onChange={this.changeHaveUsedEvent}
-        />
+      <div className="form-check col-center">
+        <input className="form-check-inline" type="checkbox" value="true" id="defaultCheck1" onChange={this.changeGlitterEvent}/>
+        <label className="form-check-label" for="defaultCheck1">
+        Has Glitter
+      </label>
+      </div></div>
+      <div className="form-group row-center">
+      <div className="form-check">
+        <input className="form-check-inline" type="checkbox" value="false" id="defaultCheck1" onChange={this.changeHaveUsedEvent}/>
+        <label className="form-check-label" for="defaultCheck1">
+        New
+      </label>
       </div>
+      <div className="form-check col">
+        <input className="form-check-inline" type="checkbox" value="true" id="defaultCheck1" onChange={this.changeHaveUsedEvent}/>
+        <label className="form-check-label" for="defaultCheck1">
+        Have Used
+      </label>
+      </div></div>
+      <div className="row-center">
       <button className="btn btn-dark" onClick={this.editColorEvent}>Confirm Edit</button>
       <button className="btn btn-dark" onClick={this.saveColorEvent}>Save New</button>
+      </div>
     </form>
     );
   }
