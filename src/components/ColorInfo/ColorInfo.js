@@ -20,11 +20,11 @@ class ColorInfo extends React.Component {
             <h5> {color.colorFamily}</h5>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col">
             <h5>{color.glitter}</h5>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
